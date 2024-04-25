@@ -129,7 +129,9 @@ public class CodingProject1 {
 		}
 		return false;
 	}
-	
+	// I made this method to be able to simply calculate the result of a number with an exponent. Its a simple set of code but it can be useful. 
+	// I wanted to do this because I haven't messed around with Math functions at all. So this gave me an opportunity to learn about them a little bit
+	// This code is just taking the first number which is your base and the second number is the power. It will return a double back to you.
 	public static double useExponents(int number, int exponent) {
 		double result = Math.pow(number, exponent);
 		return result;
